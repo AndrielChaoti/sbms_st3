@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+{
+	"name" : "${1}",
+	"friendlyName" : "${2}",
+	"description" : "${3}",
+	"author" : "${4:AndrielChaoti}",
+	"version" : "${5}",
+	"link" : "${6}",
+	"priority" : ${7:0}
+}$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

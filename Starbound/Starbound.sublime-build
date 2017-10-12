@@ -1,0 +1,22 @@
+{
+	"selector": ["source.lua", "source.json"],
+	"variants": [
+		{
+			"name": "Run (Steam)",
+			"shell_cmd": "steam://run/211820"
+		},
+		{
+			"name": "Run (32-bit)",
+			// this only exists on windows platforms
+			"windows": {
+				"shell_cmd": "\"%PROGRAMFILES(x86)%\\Steam\\steamapps\\common\\Starbound\\win32\\starbound.exe\""
+			}
+		}
+	],
+	"windows": {
+		"shell_cmd": "\"%PROGRAMFILES(x86)%\\Steam\\steamapps\\common\\Starbound\\win64\\starbound.exe\"",
+	},
+	"linux": {
+		"shell_cmd": "$HOME/.steam/SteamApps/common/Starbound/linux/starbound"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Package Control",
+		"PackageResourceViewer",
+		"SublimeLinter",
+		"SublimeLinter-json",
+		"SublimeLinter-lua",
+	]
+}
