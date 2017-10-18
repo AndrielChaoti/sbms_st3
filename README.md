@@ -49,7 +49,7 @@ favourite package manager as well:
 #### Other Linux Distros
 For other Linux distros, you can find and download your specific Lua implementation at [the lua-users wiki](http://lua-users.org/wiki/LuaBinaries). There are also instructions there that can guide you through building your own Lua binaries.
 
-## DocParser_Release.7z
+## [DocParser_Release.7z](https://github.com/AndrielChaoti/docparser)
 I've included the program that I used to generate the `starbound.sublime-completions` file, so that if horrible things happen, you won't be left hanging in the dust, or manually updating the file. It parses through Starbound's lua documentation, and reformats the lines matching function names into proper Sublime Text completion objects.
 
 The software is compiled for Windows 64-bit, against .NET Framework 4.6.1, and written in C#. It is fully Mono compatible. Since it's mostly a debugging tool, I don't really expect you to use it. Call the program with no arguments to get help on how to properly use it.
