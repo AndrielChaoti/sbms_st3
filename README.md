@@ -35,7 +35,9 @@ Need to get up and running quickly? The most basic installation is to just drag 
 - Navigate up one level. You should be in `/Packages` not `/Packages/User`
 - Copy the **Starbound** folder to your Packages directory
 
-That's it for basic setup. To enable linting of Lua files, you'll need to extract the lua archive somewhere on your system's `PATH`. For Windows users, extract the contents of the **lua-[version].7z** to your `C:\` drive.
+That's it for basic setup. To enable linting of Lua files, you'll need to extract the lua archive somewhere on your system's `PATH`. For Windows users, extract the contents of the **lua-[version].7z** to a folder on your `C:\` drive. Lua binaries are always available for download at [the lua-users wiki](http://lua-users.org/wiki/LuaBinaries).
+
+When setting up the executable for SublimeLinter, you can follow the instructions on [finding a linter executable](http://sublimelinter.readthedocs.io/en/latest/troubleshooting.html#finding-a-linter-executable). Instructions are also available here on how to set it up if you don't know how!
 
 ### Installing Lua on Linux
 Lua binaries are available online for free, but they are also available in your
