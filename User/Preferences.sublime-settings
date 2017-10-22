@@ -1,0 +1,33 @@
+{
+	// "always_show_minimap_viewport": true,
+	"bold_folder_labels": true,
+	// "color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"default_line_ending": "unix",
+	// "draw_minimap_border": true,
+	"ensure_newlone_at_eof_on_save": true,
+	// "font_face": "Source Code Pro",
+	// "font_options":
+	// [
+		// "subpixel_antialias"
+	// ],
+	// "font_size": 11,
+	// "highlight_line": true,
+	// "ignored_packages":
+	// [
+		// "Vintage"
+	// ],
+	// "indent_guide_options":
+	// [
+		// "draw_normal",
+		// "draw_active"
+	// ],
+	"rulers":
+	[
+		80,
+		120
+	],
+	"show_encoding": true,
+	"show_line_endings": true,
+	// "theme": "Adaptive.sublime-theme",
+	"trim_trailing_white_space_on_save": true
+}
