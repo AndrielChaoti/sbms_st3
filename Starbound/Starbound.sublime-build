@@ -1,22 +1,22 @@
 {
-	"selector": ["source.lua", "source.json"],
+	"selector": ["source.starboundlua", "source.starboundjson"],
 	"variants": [
-		{
-			"name": "Run (Steam)",
-			"shell_cmd": "steam://run/211820"
-		},
 		{
 			"name": "Run (32-bit)",
 			// this only exists on windows platforms
 			"windows": {
 				"shell_cmd": "\"%PROGRAMFILES(x86)%\\Steam\\steamapps\\common\\Starbound\\win32\\starbound.exe\""
 			}
+		},
+		{
+			"name": "Run (Standalone)",
+			"windows": {"shell_cmd": "\"%PROGRAMFILES(x86)%\\Steam\\steamapps\\common\\Starbound\\win64\\starbound.exe\""},
+			"linux": {"shell_cmd": "\"$HOME/.steam/steam/steamapps/common/Starbound/linux/run-client.sh\""},
+			"osx": {"shell_cmd": "\"$HOME/Library/Application Support/Steam/SteamApps/common/Starbound/osx/Starbound.app\""}
 		}
+		// TODO: Add GOG install variant
 	],
-	"windows": {
-		"shell_cmd": "\"%PROGRAMFILES(x86)%\\Steam\\steamapps\\common\\Starbound\\win64\\starbound.exe\"",
-	},
-	"linux": {
-		"shell_cmd": "$HOME/.steam/SteamApps/common/Starbound/linux/starbound"
-	}
+
+	// Default: Launch through "steam://" protocol
+	"shell_cmd": "steam://run/211820",
 }
