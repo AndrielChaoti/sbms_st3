@@ -4,12 +4,12 @@ Starbound that much easier
 
 ## Includes
 - A build system for launching Starbound and viewing log output live in the console window.
-	- 64-bit Windows
-	- Linux
 	- Steam Protocol
+	- Linux
+	- 64-bit Windows
 	- 32-bit Windows
 	- ~~GOG Installations~~ *not supported yet*
-	- ~~Mac OS Installations~~ *not supported yet*
+	- Mac OS Installations
 - Autocomplete definitions for all of the Starbound Lua API
 - Syntax Highlighting for Lua and JSON files used by Starbound
 - Snippets of code that can help make developing new mods easier
