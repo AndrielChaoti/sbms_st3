@@ -4,6 +4,7 @@ name: Starbound JSON
 file_extensions:
   ## There are a lot of these f***ers
   - json
+  - patch
   - 2functions
   - _metadata
   - metadata
