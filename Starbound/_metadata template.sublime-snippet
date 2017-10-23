@@ -1,17 +1,19 @@
 <snippet>
 	<content><![CDATA[
 {
-	"name" : "${1}",
-	"friendlyName" : "${2}",
-	"description" : "${3}",
-	"author" : "${4:AndrielChaoti}",
-	"version" : "${5}",
-	"link" : "${6}",
+	"name" : "${1:myCoolMod}",
+	"friendlyName" : "${2:My Cool Mod}",
+	"description" : "${3:The coolest mod that ever was, and ever will be!}",
+	"author" : "${4:XxX_1337_69_h4xx0r_XxX}",
+	"version" : "${5:v0.1.99_coolest_version}",
+	"link" : "${6:https://www.vandesdelca32.net}",
 	"priority" : ${7:0}
 }$0
 ]]></content>
+	<!-- I didn't just leave a subtle call-back to myself in here... Naaaah
+	 	  Who would ever want to do that...-->
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<!-- <tabTrigger>hello</tabTrigger> -->
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.python</scope> -->
+	<scope>source.starboundjson</scope>
 </snippet>
