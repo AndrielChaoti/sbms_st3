@@ -4,7 +4,7 @@
 	// "color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
 	"default_line_ending": "unix",
 	// "draw_minimap_border": true,
-	"ensure_newlone_at_eof_on_save": true,
+	"ensure_newline_at_eof_on_save": true,
 	// "font_face": "Source Code Pro",
 	// "font_options":
 	// [
